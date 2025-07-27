@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+  background-image: url(main.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  border: 0.5px solid #ccc ;
+  border-radius: 8%;   
+}
+
+.circle_avt {
+    width: 41%;
+    height: 40%;
+    background-image: url(avt.jpg);
+    background-size: contain;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.textname p{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.text {
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.para p{
+    font-size: 15px;
+    width: 250  px;
+    margin-top: 20px;
+    margin-left: 70px;
+    line-height: 1px;
+}
+
+.mini_circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 0.5 solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text_in_mini_circle {
+    font-size: 20px;
+    font-weight: bold;
+}
