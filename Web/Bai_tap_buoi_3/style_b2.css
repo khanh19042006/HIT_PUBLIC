@@ -20,6 +20,7 @@
 .main {
   width: 400px;
   height: 400px;
+  /* background-color: #a4a8dd; */
   background-image: url(main.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -59,6 +60,7 @@
     margin-top: 20px;
     margin-left: 70px;
     line-height: 1px;
+    color: #838396;
 }
 
 .mini_circle {
@@ -67,7 +69,7 @@
     background-color: white;
     border-radius: 50%;
     margin-top: 20px;
-    border: 0.5 solid #ccc;
+    border: 0.5 solid #727891;
 
     display: flex;
     justify-content: center;
