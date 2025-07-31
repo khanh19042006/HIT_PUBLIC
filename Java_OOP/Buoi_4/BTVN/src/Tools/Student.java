@@ -1,4 +1,4 @@
-package BaiTap;
+package Tools;
 
 public class Student {
     private String name;

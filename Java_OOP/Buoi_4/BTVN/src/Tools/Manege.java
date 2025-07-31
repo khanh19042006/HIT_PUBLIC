@@ -1,7 +1,6 @@
-package BaiTap;
+package Tools;
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Manege {
     static Scanner sc = new Scanner(System.in);

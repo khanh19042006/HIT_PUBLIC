@@ -1,4 +1,8 @@
-package BaiTap;
+package Main;
+import Tools.Data;
+import Tools.Manege;
+import Tools.Student;
+
 import java.util.Scanner;
 
 public class Main{

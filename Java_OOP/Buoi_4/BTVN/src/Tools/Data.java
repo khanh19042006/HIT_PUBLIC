@@ -1,4 +1,4 @@
-package BaiTap;
+package Tools;
 
 public class Data {
     static int sl = 0;
