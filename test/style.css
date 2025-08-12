@@ -4,11 +4,52 @@
     box-sizing: border-box;
 }
 
-ul{
-    padding: 20px;
+.body{
+    background-color: #1d5b4e;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.item{
-    color: green;
-    background-color: #f0f0f0;
+.main{
+    height: 60vh;
+    width: 40vh;
+    border-radius: 10px;
+    background-color: #88a39e;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+
+.circle_logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: red;
+    border: #5a8869 solid 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: #1d5b4e;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.logo img{
+    object-fit: cover;
+}
+
+.break{
+    width: 200vh;
+}
+
+.nameClub{
+    font-size: 120%;
 }
