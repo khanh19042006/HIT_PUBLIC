@@ -7,6 +7,7 @@ public class Car {
     private String brand;
     private int maxSpeed;
 
+
     public Car(String brandOfCar, int maxSpeedOfCar){
         this.brand = brandOfCar;
         this.maxSpeed = maxSpeedOfCar;
