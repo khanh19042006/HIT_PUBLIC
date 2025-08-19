@@ -5,51 +5,216 @@
 }
 
 .body{
-    background-color: #1d5b4e;
+    height: 1000vh;
+    background-color: #0e1d34;
+}
+
+.header{
+    background-color: rgba(14,29,52,0.8);
     display: flex;
-    position: relative;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    width: 100%;
+    height: 11vh;
+    position: fixed;
+}
+
+.header_left{
+    color: #ffffff;
+    font-size: 250%;
+    font-weight: 600;
+}
+
+.header_right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.simple_text_header{
+    color: #878e9a;
+    font-size: 120%;
+}
+
+.special_text_header{
+    color: #ffffff;
+    font-size: 120%;
+}
+
+.button_fake{
+    background-color: black;
+    width: 1px;
+    height: 1px;
+}
+
+.button_header{
+    background-color: #0d42ff;
+    width: 120px;
+    height: 35px;
+    border: #0d42ff 1px solid;
+    border-radius: 3px;
+    color: #ffffff;
 }
 
 .main{
-    height: 60vh;
-    width: 40vh;
-    border-radius: 10px;
-    background-color: #88a39e;
-    display: flex;
-    justify-content: center;
-    padding-top: 3%;
-    flex-wrap: wrap;
+    height: 200vh;
+    width: 100%;
 }
 
-.circle_logo{
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    background-color: red;
-    border: #5a8869 solid 0.5px;
+.main1{
+    background-color: #0e1d34;
+    background-image: url(https://scontent.fhan9-1.fna.fbcdn.net/v/t1.15752-9/462534217_564528202831921_4539885443228246547_n.png?stp=dst-png_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEfjst0EbNl8-5qe6fDSGT6pFO1xpSYPRSkU7XGlJg9FFHh6J7GXv90bCwogmY904hEWCn5yn0_nRclwP0UfLoG&_nc_ohc=U9nRegsnuVQQ7kNvwHunz2_&_nc_oc=AdkkJfv6ZtFyC_mSbZIMPJtqBHC_-JsbutKZ-zT5GUNUQNLnfRiVsWst6mVnansQ0FFLCBiHfkC3h3V8pBBv0RKq&_nc_zt=23&_nc_ht=scontent.fhan9-1.fna&oh=03_Q7cD3AFaePDH7gcME1WFJbGCv6thm1rFAHvQr8YdPcpqRPJb1Q&oe=68CBD20F);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.main1_left{
+    /* background-color: red; */
+    width: 45%;
+    height: 100%;
+}
+
+.main1_left_title{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-size: 150%;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 20%;
+    font-weight: 900;
+}
+
+.main1_left_text{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    margin-top: 3%;
+}
+
+.input{
+    margin-top: 4%;
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.button_in_input{
+    position: absolute;
+    width: 18%;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0d42ff;
+    color: white;
+    left: 80%;
+    top: 34%;
+    font-size: 110%;
+}
+
+.form{
+    position: relative;
+    /* background-color: beige; */
+    width: 100%;
+}
+
+.main1_left_bot{
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    gap: 10%;
+}
+
+.infor_bot_main1{
+    color: white;
+    width: 50px;
+    height: 100px;
+    /* background-color: black; */
+}
+
+.top_infor{
+    font-size: 200%;
+    margin-bottom: 30%;
+    font-family: 900;
+}
+
+.top_infor_control{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.line{
+    background-color: #0d42ff;
+    width: 30%;
+    display: flex;
+    margin-left: 20px ;
+    justify-content: center;
+}
+
+.bot_infor{
+    margin-top: 30%;
+}
+
+.main1_right{
+    width: 45%;
+    height: 100%;
+    /* background-color: #0d42ff */
+}
+
+.img_main1_right{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 37%;
+    top: 23%;
+}
+
+.main2{
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.logo{
-    background-color: #1d5b4e;
-    width: 60%;
-    height: 60%;
-    border-radius: 50%;
+.main2_left{
+    /* background-color: #0d42ff; */
+    width: 45%;
+    height: 80%;
 }
 
-.logo img{
-    object-fit: cover;
+.main2_left_top{
+    background-color: #ffffff;
+    width: 90%;
 }
 
-.break{
-    width: 200vh;
+.main2_left_top h1{
+    color: #001973;
+    font-size: 260%;
+    font-weight: 900;
 }
 
-.nameClub{
+.main2_left_top p{
+    color: black;
     font-size: 120%;
 }
