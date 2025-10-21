@@ -1,0 +1,21 @@
+a, b = map(int,input().split())
+print ("a + b = ", a+b)
+print ("a - b = ", a-b)
+print ("a * b = ", a*b)
+print ("a / b = ", a/b)
+print ("a ^ b = ", a**b)
+print ("a % b = ", a%b)
+if (a > b): print("a lớn hơn b")
+elif (a < b): print("a nhỏ hơn b")
+else: print (" a bằng b")
+print ("a AND b = ", a and b)
+print ("a OR b = ", a or b)
+print ("a xor b = ", a^b)
+print ("not a == b ", not(a == b))
+print ("a dịch phải 5 bit = ", a >> 5)
+print ("a dịch trái 6 bit = ", a << 6)
+s = ""
+while (a != 0):
+    s + str(a%2)
+    a //= 2
+print (s)
