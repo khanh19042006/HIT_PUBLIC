@@ -1,21 +1,27 @@
+package Main;
+
+import java.util.UUID;
+
 public class User {
     private String id, name;
     private double balance;
 
-    public User(String id, String name, double balance) {
-        this.id = id;
+    public User(String name, double balance) {
+        this.id = UUID.randomUUID().toString();
         this.name = name;
         this.balance = balance;
     }
 
-    public User(String id, String name) {
+    public User() {
+        this.id = "";
+        this.name = "";
+        this.balance = 0;
+    };
+
+    public User(String name) {
         this.id = id;
         this.name = name;
         this.balance = 0;
-    }
-
-    public String getId() {
-        return id;
     }
 
     public String getName() {
