@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d347bec2-b436-4188-b84f-8a6165b2ca79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BT/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT/BT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/BTTL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi1/BTVN/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/src/Main/Mang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="34gzDE5SdJcx7b4mecMHxx2d4n9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/HIT/DKhanh/Private_Java/Buoi3"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d347bec2-b436-4188-b84f-8a6165b2ca79" name="Changes" comment="" />
+      <created>1761649881081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761649881081</updated>
+    </task>
+    <servers />
+  </component>
+</project>
