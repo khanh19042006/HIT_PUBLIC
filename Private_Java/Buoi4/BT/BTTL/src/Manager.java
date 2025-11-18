@@ -37,8 +37,8 @@ public class Manager extends Employee{
     }
 
     public Technician getTechnicianById(int technicianId) {
-        for (Technician i : this.Technicians){
-            if (i.getId() == technicianId){
+        for (Technician i : this.Technicians) {
+            if (i.getId() == technicianId) {
                 return i;
             }
         }
