@@ -67,6 +67,8 @@ public abstract class Employee {
     }
 
     public String toString(){
-        return super.toString();
+        return "id: " + this.id + "\n" +
+                "name: " + this.name + "\n" +
+                "age: " + this.age + "\n";
     }
 }

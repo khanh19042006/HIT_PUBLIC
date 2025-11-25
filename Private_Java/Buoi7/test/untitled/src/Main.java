@@ -23,7 +23,7 @@ public class Main{
 
             if (choose == 1) {
                 for (Employee i : ds.getAllEmployee()){
-                    i.toString();
+                    System.out.println(i.toString());
                 }
                 System.out.println("Xong !");
                 System.out.println();

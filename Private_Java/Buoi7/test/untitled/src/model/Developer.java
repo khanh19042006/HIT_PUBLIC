@@ -36,6 +36,9 @@ public class Developer extends Employee implements IDebuggable, IWorkable {
 
     @Override
     public String toString(){
-        return super.toString() + "overtimeHours: " + this.overtimeHours;
+        return "id: " + super.getId() + "\n" +
+                "name: " + super.getName() + "\n" +
+                "age: " + super.getAge() + "\n" +
+                "overtime: " + this.overtimeHours;
     }
 }
