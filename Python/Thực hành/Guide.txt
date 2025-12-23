@@ -1,0 +1,24 @@
+# Trỏ tới đúng file
+cd
+
+# Kiểm tra python
+python --version
+
+# Kiểm tra pip
+pip --version
+
+# Cài thư viện 
+pip install -r requirements.txt
+
+
+# Tạo file venv
+python -m venv env
+
+# Kích hoạt
+env\Scripts\activate
+
+# Cài các thư viện
+pip install -r requirements.txt
+
+# Đóng .venv (sau khi cài xong thư viện)
+deactivate
