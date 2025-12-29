@@ -1,0 +1,5 @@
+# Ignore Python virtual environment in Buoi8
+Python/Buoi8/.venv/
+
+# Ignore OpenCV folder in Buoi8
+Python/Buoi8/OpenCV/
